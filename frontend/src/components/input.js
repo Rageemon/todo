@@ -1,8 +1,8 @@
-function Input({label}) {
+function Input({label, handleChange ,value}) {
     return (
       <div>
-        <label>{label}</label>
-        <input placeholder={label} type="text"></input>
+        <label>Enter {label}</label>
+        <input placeholder={label} type="text" onChange = {handleChange} name={label} value = {value}></input>
       </div>
     );
   }

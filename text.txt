@@ -1,0 +1,42 @@
+doc
+programing
+database, architecture
+oop, pop diff
+mern stack
+json
+basic javascript
+callback function
+synchronize,asynchrnize
+
+study git
+
+folder struct
+backend folder
+    models
+    controllers
+    routes
+    utils
+    .env
+
+    dummy data
+    server.js
+    panpm init -y package.json
+
+npx create-react-app frontend
+
+npm node package manager
+packages to install
+for backend use :> npm i mongoose cors morgan dotenv
+for backend use :> npm i body-parser nodemon
+for frontend use :> npm i react react-dom zustand
+
+
+mongoose(to connect database to server)
+cors
+morgans
+body-parser
+dotenv(secure configure variable)
+zustand(to make variable global throughout project)
+react dom
+
+
