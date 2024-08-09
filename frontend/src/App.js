@@ -9,6 +9,7 @@ function App() {
     <>
       <Input label="Enter Title" />
       <Input label="Enter Desc" />
+      <Desc title="none" desc="none"/>
     </>
   )
 }

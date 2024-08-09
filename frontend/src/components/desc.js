@@ -1,8 +1,12 @@
-function Desc({label}){
+function Desc(props){
     return(
         <>
-        <label>{label}</label>
-        <input placeholder={label} type="text"></input>
+        <dl>
+            <dt>Title</dt>
+            <dd>{props.title}<button>Update</button><button>Delete</button></dd>
+            <dt>Description</dt>
+            <dd>{props.desc}<button>Update</button><button>Delete</button></dd>
+        </dl>
         </>
     )
 }
