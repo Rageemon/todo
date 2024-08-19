@@ -29,8 +29,8 @@ export const getAllToDo = () => {
     })
 }
 
-export const ToDobyIDandUpdate = (id,todo) => {
-    return fetch(`${ENDPOINT_URL}/getToDobyIDandUpdate/${id}`,{
+export const updateTodoById = (id,todo) => {
+    return fetch(`${ENDPOINT_URL}/updateTodoById/${id}`,{
         method : 'PATCH',
         headers : {
             Accept: 'application/json',
@@ -44,8 +44,8 @@ export const ToDobyIDandUpdate = (id,todo) => {
     })
 }
 
-export const ToDobyIDandDel = (id) => {
-    return fetch(`${ENDPOINT_URL}/getToDobyIDandDel/${id}`,{
+export const delTodoById = (id) => {
+    return fetch(`${ENDPOINT_URL}/delTodoById/${id}`,{
         method : 'DELETE',
         header : {
             Accept : 'application/json',
