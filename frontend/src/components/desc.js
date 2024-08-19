@@ -1,15 +1,12 @@
-function Desc(props) {
-    return (
+function Desc(props){
+    return(
         <>
-            <dl>
-                <dt>Title</dt>
-                <dd>{props.title}<button>Update</button><button>Delete</button></dd>
-                <dt>Description</dt>
-                <dd>{props.desc}
-                    <button>Update</button>
-                    <button>Delete</button>
-                </dd>
-            </dl>
+        <dl>
+            <dt>Title</dt>
+            <dd>{props.title}<button>Update</button><button>Delete</button></dd>
+            <dt>Description</dt>
+            <dd>{props.desc}<button>Update</button><button>Delete</button></dd>
+        </dl>
         </>
     )
 }
